@@ -1,4 +1,4 @@
-## In Ruby, why does my division return an integer instead of a decimal value?
+## Ruby: Why does my division return an integer instead of a decimal value?
 
 ### Greetings
 Hey,  It's Alexandre Calaça here. Hope you're fine.
