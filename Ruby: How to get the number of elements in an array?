@@ -131,3 +131,4 @@ In order to choose, keep in mind 2 things:
 **Still don't know what to choose?
 **Choose the `length` or the `size` method, because their performance is better than the `count` method.
 
+
