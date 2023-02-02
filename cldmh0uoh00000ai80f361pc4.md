@@ -1,6 +1,6 @@
 # Rspec: Could not find generator 'rspec:install'. Maybe you meant 'assets', 'channel' or 'scaffold'
 
-### Introduction
+### ⏹️ Introduction
 
 `rspec-rails` brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework, Minitest.
 
@@ -8,7 +8,7 @@ Rspec looks a lot like plain English.
 
 ---
 
-### What's the error message?
+### ⏹️ What's the error message?
 
 ```ruby
 Could not find generator 'rspec:install'. Maybe you meant 'assets', 'channel' or 'scaffold'
@@ -22,7 +22,7 @@ The error message says that it was not possible to find the above generator.
 
 ---
 
-### When does it happen?
+### ⏹️ When does it happen?
 
 It happens when you try to run `rails generate rspec:install`
 
@@ -32,7 +32,7 @@ rails generate rspec:install
 
 ---
 
-### How to solve the error?
+### ⏹️ How to solve the error?
 
 Make sure that:
 
@@ -46,7 +46,7 @@ Make sure that:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675273949902/fd496465-734b-4988-91dd-577acf06449f.png align="center")
     
-3. #### Rspec is installed
+3. #### 🔥 Rspec is installed
     
     `gem list rspec`
     
