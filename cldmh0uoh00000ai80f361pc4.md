@@ -40,23 +40,23 @@ Make sure that:
     
     `rails generate rspec:install`
     
-2. #### ⏹️ Rspec gem is inside :development and :test blocks (Gemfile)
+2. #### ✅ Rspec gem is inside :development and :test blocks (Gemfile)
     
     `gem 'rspec-rails'`
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675273949902/fd496465-734b-4988-91dd-577acf06449f.png align="center")
     
-3. #### 🔥 Rspec is installed
+3. #### ✅ Rspec is installed
     
     `gem list rspec`
     
-4. #### Stop spring
+4. #### ✅ Stop spring
     
     `bin/spring stop`
     
     This one worked for me.
     
-5. #### Try again
+5. #### ✅Try again
     
     `rails generate rspec:install`
     
@@ -64,14 +64,14 @@ Make sure that:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675272754256/bd847f6b-6609-488e-86ed-efd16f7b51e7.png align="center")
     
-6. #### Celebrate
+6. #### ✅Celebrate
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675272855269/884b16d0-43b7-41f0-9ac3-83ab90f4e9ca.gif align="center")
 
 ---
 
-### Conclusion
+### ⏹️ Conclusion
 
 In this article, we learned `how to setup rspec on Ruby on Rails.`
 
