@@ -1,6 +1,6 @@
 # Rails: How to setup rspec on Rails
 
-1. #### 1-Add `rspec` to the Gemfile;
+1. #### Add `rspec` to the Gemfile;
     
     ```ruby
     group :development, :test do
@@ -10,13 +10,13 @@
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675273932198/a3ebfefb-d751-4c7f-ba1f-4b7f11da9a7c.png align="center")
     
-2. #### 2-Install the dependencies
+2. #### Install the dependencies
     
     ```ruby
     bundle install
     ```
     
-3. #### 3️⃣ -Check if it was installed correctly
+3. #### Check if it was installed correctly
     
     ```ruby
     gem list rspec
