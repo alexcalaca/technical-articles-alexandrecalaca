@@ -32,7 +32,7 @@ rails generate rspec:install
 
 ### How to solve the error?
 
-#### Make sure...
+Make sure that:
 
 1. #### The command is spelled correctly
     
@@ -43,10 +43,10 @@ rails generate rspec:install
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675273949902/fd496465-734b-4988-91dd-577acf06449f.png align="center")
     
-3. Rspec is installed  
+3. #### Rspec is installed  
     `gem list rspec`
     
-4. Stop spring
+4. #### Stop spring
     
     `bin/spring stop`
     
@@ -56,12 +56,11 @@ rails generate rspec:install
     
     `rails generate rspec:install`
     
-      
     You should see something like this
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675272754256/bd847f6b-6609-488e-86ed-efd16f7b51e7.png align="center")
     
-6. Celebrate
+6. #### Celebrate
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675272855269/884b16d0-43b7-41f0-9ac3-83ab90f4e9ca.gif align="center")
