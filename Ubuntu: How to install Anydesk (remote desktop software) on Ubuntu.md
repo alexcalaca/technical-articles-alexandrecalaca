@@ -51,7 +51,7 @@ or go to the Menu and open `AnyDesk`
 
 Step 6. Be happy
 
-![Untitled design.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642088491962/i52nHG7IS.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675272855269/884b16d0-43b7-41f0-9ac3-83ab90f4e9ca.gif align="center")
 
 ### Conclusion
 In this article,  it was possible to learn how to install Anydesk on Ubuntu.
