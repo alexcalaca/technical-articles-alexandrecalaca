@@ -2,7 +2,7 @@
 title: "Rails 6: Webpacker::Manifest::MissingEntryError"
 datePublished: Sat Mar 04 2023 02:26:45 GMT+0000 (Coordinated Universal Time)
 cuid: cletcfot1000409jq1xud95m9
-slug: rails-6-webpackermanifestmissingentryerror
+slug: rails-6-webpacker-manifest-missing-entry-error
 tags: programming-blogs, ruby, ruby-on-rails, deepin
 
 ---
