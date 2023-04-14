@@ -3,6 +3,7 @@ title: "Rails: How do Sessions work in Rails?"
 datePublished: Fri Apr 14 2023 03:13:07 GMT+0000 (Coordinated Universal Time)
 cuid: clgfz58m6000009l8fjskd07i
 slug: rails-how-do-sessions-work-in-rails
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681442316977/1e3e1f01-9496-40ce-8046-7ac22a246659.webp
 tags: programming-blogs, http, ruby, rails
 
 ---
