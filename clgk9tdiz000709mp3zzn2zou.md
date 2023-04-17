@@ -1,5 +1,5 @@
 ---
-title: "Rails: How to improve Rails performance with the Russian doll caching technique?"
+title: "Rails: How to improve Rails performance with the Russian doll caching technique? [Part II - Theory]"
 datePublished: Mon Apr 17 2023 03:22:54 GMT+0000 (Coordinated Universal Time)
 cuid: clgk9tdiz000709mp3zzn2zou
 slug: rails-how-to-improve-rails-performance-with-the-russian-doll-caching-technique-part-ii
