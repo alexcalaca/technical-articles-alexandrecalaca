@@ -84,6 +84,9 @@ This approach allows you to cache a complex view with multiple sub-views, each o
 
 The decision to use Russian Doll Caching or another caching strategy depends on your specific application's needs and requirements. You should consider factors such as \`view complexity\`, \`frequency of data changes\`, \`performance requirements\`, and \`cache storage\` when making your decision.
 
+##### Frequency of data changes  
+Russian Doll Caching could prove to be a valuable strategy if your application's data changes regularly. Russian Doll Caching allows you to cache fragments at different levels of granularity, so you can avoid re-rendering the entire view when only a small portion of the data has changed.
+
 ##### Cache storage
 
 Russian Doll Caching requires a cache store, such as Redis or Memcached, that supports nested keys. If your application is already using a cache store that does not support nested keys, you may need to switch to a different cache store or consider a different caching strategy.
@@ -102,7 +105,8 @@ Russian Doll Caching could prove to be a valuable strategy if your application's
 Frequency of data changes  
 Russian Doll Caching could prove to be a valuable strategy if your application's data changes regularly. Russian Doll Caching allows you to cache fragments at different levels of granularity, so you can avoid re-rendering the entire view when only a small portion of the data has changed.
 
-##### Performance requirements  
+##### Performance requirements
+
 Russian Doll Caching might be a viable option if your application demands quick response times and high concurrency. By caching fragments and serving them directly from memory, you can reduce the number of database queries and improve application performance.
 
 ##### Cache storage
