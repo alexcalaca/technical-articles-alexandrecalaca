@@ -27,39 +27,9 @@ The next article is going to be `Don't Let Slow Specs Slow You Down: How to Iden
 
 Slow specs in RSpec are specs that take longer than the average time to run. They can slow down your test suite and make it harder to get quick feedback on your code changes.
 
-In this article, we're going to identify them by using the `--profile`option provided by Rspec itself.
+Basically, it's possible to use the `--profile` option and the `gemrspec-benchmark` gem.
 
-#### Option 1: `--profile`
-
-Basically, in order to identify these slow specs, we're going to use `--profile` or `-p` provided by Rspec itself.
-
-The full command would be one of the following:
-
-```apache
-rspec --profile
-```
-
-or
-
-```apache
-rspec -p
-```
-
-#### Option 2: `Gem` `gemrspec-benchmark`
-
-`RSpec::Benchmark` is a an amazing performance testing matchers for RSpec to set expectations on speed, resources usage and scalability.
-
-Integration and unit tests ensure that changing code maintains expected functionality. What is not guaranteed is the code changes impact on library performance.
-
-Basically, in order to use `rspec-benchmark`, you need to include it in your Gemfile and run `bundle install`. Once it's installed, you can use the `:benchmark` tag in your RSpec examples and measure their run time.
-
-As an example, the `perform_under` matcher answers the question of how long does it take to perform a given block of code on average. The measurements are taken executing the block of code in a child process for accurate CPU times.
-
-```apache
-expect { ... }.to perform_under(10).ms
-```
-
-This article is not going to focus on `gemrspec-benchmark.`
+#### In case you want to go deeper into this topic, please check the first part of the series: [Don't Let Slow Specs Slow You Down: How to Identify them \[Part I\].](https://blog.alexandrecalaca.com/dont-let-slow-specs-slow-you-down-how-to-identify-them-part-i)
 
 ---
 
@@ -79,55 +49,7 @@ The basic usage is by running the following command in the terminal:
 rspec --profile
 ```
 
-#### With a file
-
-`The rspec --profile` command is able to be used with a specific file or directory by specifying the file or directory path as an argument to the `rspec` command.
-
-As an example, in case you want to run the `--profile` option on a specific file, you can run:
-
-```apache
-rspec --profile spec/path/to/your_spec.rb
-```
-
-The previous command will show the 10 slowest examples of the your\_spec.rb file.
-
-#### With a directory
-
-Similarly, if you want to run the `--profile` option on a specific directory, you can run:
-
-```apache
-rspec --profile spec/path/to/your_directory/
-```
-
-This will run all the tests in the `your_directory` directory and provide a report of the slowest tests, sorted by execution time.
-
-Note that when running `--profile` on a specific file or directory, RSpec will only show the slowest tests within that file or directory.
-
-#### Customize the number of examples
-
-If no parameters are provided, the default number of examples is 10. It's possible to modify this number according to your needs.
-
-You can modify the number of examples shown in the profiling report by using the `--profile` option along with the `n` flag, followed by the number of examples you want to see.
-
-It would be like this:
-
-```apache
-rspec --profile 5
-```
-
-As an example, instead of 10 examples, if you want to get the top 15 slowest examples of one specific file, you can run:
-
-```apache
-rspec --profile --profile-examples 20 path/to/spec/file_spec.rb
-```
-
-The previous command will run the RSpec test suite and output a report of the 20 slowest examples in the `file_spec.rb` file, along with their execution times.
-
-In case of a directory, the following command get the 20 slowest examples in all the files in the `directory`.
-
-```apache
-rspec --profile --profile-examples 20 path/to/spec/directory
-```
+#### In case you want to go deeper into this topic, please check the first part of the series: [Don't Let Slow Specs Slow You Down: How to Identify them \[Part I\].](https://blog.alexandrecalaca.com/dont-let-slow-specs-slow-you-down-how-to-identify-them-part-i)
 
 ---
 
