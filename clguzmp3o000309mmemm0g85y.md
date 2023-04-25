@@ -1,8 +1,8 @@
 ---
-title: "Don't Let Slow Specs Slow You Down: How to Identify them"
+title: "Don't Let Slow Specs Slow You Down: How to Identify them [Part I]"
 datePublished: Mon Apr 24 2023 15:23:14 GMT+0000 (Coordinated Universal Time)
 cuid: clguzmp3o000309mmemm0g85y
-slug: dont-let-slow-specs-slow-you-down-how-to-identify-them
+slug: dont-let-slow-specs-slow-you-down-how-to-identify-them-part-i
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682349690438/7e231abf-2cd0-4f9f-bcfe-dc4fa3f40e63.png
 tags: programming-blogs, ruby, performance, ruby-on-rails, testing
 
@@ -16,7 +16,7 @@ Hey guys, how've you been? It's AC Alexandre Calaça here. Hope you enjoy this n
 
 ### Introduction
 
-This article `Don't Let Slow Specs Slow You Down: How to Identify them` is the first part of a series dedicated to talk about rspec tests. The next article is going to be `Don't Let Slow Specs Slow You Down: How to Identify and Optimize Your RSpec Tests`.
+This article `Don't Let Slow Specs Slow You Down: How to Identify them [Part I]` is the first part of a series dedicated to talk about rspec tests. The next article is going to be `Don't Let Slow Specs Slow You Down: How to Identify them [Part II].`
 
 ---
 
@@ -142,11 +142,11 @@ This will run all the tests in the `your_directory` directory and provide a repo
 
 Note that when running `--profile` on a specific file or directory, RSpec will only show the slowest tests within that file or directory.
 
-#### Customize the number of examples
+#### The number of examples
 
-If no parameters are provided, the default number of examples is 10. It's possible to customize this number according to your needs.
+If no parameters are provided, the default number of examples is 10. It's possible to modify this number according to your needs.
 
-You can customize the number of examples shown in the profiling report by using the `--profile` option along with the `n` flag, followed by the number of examples you want to see.
+You can modify the number of examples shown in the profiling report by using the `--profile` option along with the `n` flag, followed by the number of examples you want to see.
 
 It would be like this:
 
@@ -167,30 +167,6 @@ In case of a directory, the following command get the 20 slowest examples in all
 ```apache
 rspec --profile --profile-examples 20 path/to/spec/directory
 ```
-
-#### Customize sorting
-
-By default, RSpec sorts the profiling results by execution time, with the slowest examples and groups listed at the top. However, you can use the `--sort` option to change the sorting method
-
-##### By impact
-
-Impact is a combination of the number of times an example is run and the average execution time.
-
-It would be like this:
-
-```apache
-rspec --profile --sort impact
-```
-
-The previous command is going to sort the examples and groups with the highest impact (i.e., the ones that are run the most frequently and/or take the longest to execute) will be listed at the top.
-
-##### By alphabetical order
-
-```apache
-rspec --profile --sort name
-```
-
-The previous command will sort the profiling results alphabetically by example or group name.
 
 ---
 
@@ -224,9 +200,11 @@ If you read the article, kudos! you did a great job. You can definitely celebrat
 
 ### Conclusion
 
-That's all for today. Thanks for reading the article `Don't Let Slow Specs Slow You Down: How to Identify them.`
+That's all for today. Thanks for reading the article `Don't Let Slow Specs Slow You Down: How to Identify them [Part I].`
 
-This article is the first part of a series dedicated to talk about rspec tests. The next article is going to be `Don't Let Slow Specs Slow You Down: How to Identify and Optimize Your RSpec Tests`.
+This article is the first part of a series dedicated to talk about rspec tests. The next article is going to be `Don't Let Slow Specs Slow You Down: How to Identify them [Part II].`
+
+The next article is going to focus on customizing sorting.
 
 I hope this article helped you. Let me know if you have any questions.
 
