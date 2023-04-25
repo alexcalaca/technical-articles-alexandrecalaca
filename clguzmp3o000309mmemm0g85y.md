@@ -18,6 +18,8 @@ Hey guys, how've you been? It's AC Alexandre Calaça here. Hope you enjoy this n
 
 This article `Don't Let Slow Specs Slow You Down: How to Identify them [Part I]` is the first part of a series dedicated to talk about rspec tests. The next article is going to be `Don't Let Slow Specs Slow You Down: How to Identify them [Part II].`
 
+In case you want to jump to the second part of the series, [just click here.](https://blog.alexandrecalaca.com/dont-let-slow-specs-slow-you-down-how-to-identify-them-part-ii)
+
 ---
 
 #### Testing
