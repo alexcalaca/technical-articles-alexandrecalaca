@@ -31,8 +31,8 @@ We will cover the basic concepts of validations, specially in Ruby on Rails. We'
 By the end of this article, you will have a basic understanding of how validations  work in Rails and how they can benefit your application development process.
 
 Planning of this series:
-Part I -  Basic introduction
-Part II - Detailed introduction
+Part I -  Basic introduction (This article) <br/>
+[Part II - Strong foundations](https://blog.alexandrecalaca.com/creating-bulletproof-validations-in-ruby-on-rails-with-custom-validators-part-ii) <br/>
 Part III - Implementation
 
 ---
