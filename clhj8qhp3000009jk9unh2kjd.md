@@ -99,7 +99,7 @@ To create a custom validator in Rails, you need to define a class that inherits 
 
 ---
 
-### Steps to implement Custom validators
+## Steps to implement Custom validators
 Check Part III.
 
 ---
@@ -112,7 +112,7 @@ By following the steps outlined in this article, you have a basic understanding 
 
 Whether you are a seasoned Rails developer or just starting out, custom validators can help you build more robust and maintainable applications.
 
-The next article [Part]() II is going to extend this article and provide more details to this introduction.
+The next article [Part II](https://blog.alexandrecalaca.com/creating-bulletproof-validations-in-ruby-on-rails-with-custom-validators-part-ii) II is going to extend this article and provide strong foundations to move on with the topic.
 
 Part III is going to cover the implementation of custom validators.
 
@@ -120,7 +120,7 @@ Part III is going to cover the implementation of custom validators.
 
 ## Celebrate
 
-If you read the article, kudos! you did a great job. You can definitely celebrate!
+I'm glad you finished it, kudos! you did a great job. You can definitely celebrate!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675272855269/884b16d0-43b7-41f0-9ac3-83ab90f4e9ca.gif?auto=format,compress&gif-q=60&format=webm align="left")
 
