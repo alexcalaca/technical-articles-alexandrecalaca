@@ -173,7 +173,7 @@ So, pay attention if you really want to use this approach.
 
 ---
 
-### Test it
+### 5\. Test it
 
 By testing with your view page, check if you get the error message again. 
 
