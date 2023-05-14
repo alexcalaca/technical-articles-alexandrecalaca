@@ -24,7 +24,7 @@ You might be interested in checking my complete [list of articles](https://blog.
 
 ## Objective
 
-Throughout this article, we will explore the underlying concepts that contribute to the ActionController::InvalidAuthenticityToken error.
+Throughout this article, we will explore the underlying concepts that contribute to the solution to the ActionController::InvalidAuthenticityToken error.
 
 By understanding authenticity tokens, user sessions, form structures, and the potential threats of Cross-Site Request Forgery (CSRF) attacks, you gain insights into the root causes of this error and the measures required to mitigate it.
 
