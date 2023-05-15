@@ -8,7 +8,7 @@ tags: ruby, programming, ruby-on-rails
 
 ---
 
-> #### TL;DR: `include?` is the best approach
+> TL;DR: `include?` is the best approach
 
 ---
 
