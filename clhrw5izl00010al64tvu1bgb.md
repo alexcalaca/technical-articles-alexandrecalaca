@@ -20,7 +20,7 @@ Since you're already here, consider follow me on:
 
 * [github](https://github.com/alexcalaca)
     
-* [Hashnode](https://blog.alexandrecalaca.com/)
+* [Hashnode](https://hashnode.com/onboard?next=/@alexandrecalaca)
     
 * [LinkedIn](https://linkedin.com/in/alexandrecalacaofficial)
     
