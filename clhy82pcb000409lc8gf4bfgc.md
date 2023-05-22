@@ -2,7 +2,7 @@
 title: "How to handle ActiveRecord::RecordNotFound exception in Rails?"
 datePublished: Mon May 22 2023 02:22:38 GMT+0000 (Coordinated Universal Time)
 cuid: clhy82pcb000409lc8gf4bfgc
-slug: how-to-handle-activerecordrecordnotfound-exception-in-rails
+slug: how-to-handle-active-record-record-not-found-exception-in-rails
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/XWar9MbNGUY/upload/4d971485193458121285eb2436811675.jpeg
 tags: programming-blogs, ruby, web-development, ruby-on-rails, 2articles1week
 
@@ -22,7 +22,7 @@ Rails usually render an error page.
 
 ## Error
 
-Let's check the error from different angles.
+Let's check the exception from different angles.
 
 ### Full message
 
