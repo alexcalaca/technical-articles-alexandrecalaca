@@ -77,7 +77,7 @@ However, it's important to note that client-side validation can be bypassed, so 
 
 ---
 
-### Let's become friends
+## Let's become friends
 
 * [Github](https://github.com/alexcalaca)
     
@@ -90,7 +90,7 @@ However, it's important to note that client-side validation can be bypassed, so 
 
 ---
 
-### Final thoughts
+## Final thoughts
 
 I hope this article helped you. Let me know if you have any questions.
 
