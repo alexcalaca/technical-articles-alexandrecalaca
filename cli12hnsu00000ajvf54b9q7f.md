@@ -2,13 +2,13 @@
 title: "Taming ActiveRecord::RecordInvalid error Like a Pro"
 datePublished: Wed May 24 2023 02:09:37 GMT+0000 (Coordinated Universal Time)
 cuid: cli12hnsu00000ajvf54b9q7f
-slug: taming-activerecordrecordinvalid-error-like-a-pro
+slug: taming-activerecord-record-invalid-error-like-a-pro
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/bmJAXAz6ads/upload/0ed79514d4b423e1e077e978e6ba9511.jpeg
 tags: programming-blogs, ruby, web-development, ruby-on-rails, 2articles1week
 
 ---
 
-> TL; DR: The best strategy is the one based on your needs
+> TL; DR: The best strategy is the one based on your needs.
 
 ---
 
