@@ -8,6 +8,8 @@ tags: ruby, web-development, ruby-on-rails, hashnode, 2articles1week
 
 ---
 
+`Revisited on May 26th, 2023`
+
 ---
 
 ### Greeting
@@ -103,11 +105,11 @@ Overall, custom validators are an essential tool in Ruby on Rails development th
 
 ## Steps
 
-To create a custom validator in Rails, you need to define a class that inherits from ActiveModel::Validator or from ActiveModel::EachValidator and implements a validate method.
+To create a custom validator in Rails, you need to define a class that inherits from ActiveModel::Validator or ActiveModel::EachValidator and implement a validate method.
 
-The validate method can take a single or multiple arguments, one of them must the model instance being validated, and add error messages to the model's errors collection if the validation fails.
+The validate method can take a single or multiple arguments. One of them must be the model instance being validated, and you can add error messages to the model's errors collection if the validation fails.
 
-Let me hold your hand and show you the baby steps to create custom validations in separate classes with Rails.
+Let me guide you through the process with these eight simple steps, which I call "baby steps."
 
 8 super simples steps, I called them "baby steps".
 
