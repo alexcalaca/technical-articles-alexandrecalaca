@@ -8,6 +8,8 @@ tags: programming-blogs, ruby, web-development, ruby-on-rails, 2articles1week
 
 ---
 
+`Revisited on May 28th, 2023`
+
 > TL; DR: Configure a CSS class and include it to apply the technique.
 
 ---
@@ -195,3 +197,5 @@ Your thoughts, suggestions and corrections are more than welcome.
 By the way, feel free to drop your suggestions on new blog articles.
 
 Hope to see you next time.
+
+---
