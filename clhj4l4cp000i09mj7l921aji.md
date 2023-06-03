@@ -8,10 +8,10 @@ tags: hashnode, 2articles1week
 
 ---
 
-**\[All Articles\](**[https://blog.alexandrecalaca.com/archive](https://blog.alexandrecalaca.com/archive)**)**
+[All Articles](https://blog.alexandrecalaca.com/archive)
 
 Articles by category (tags):
 
-* \[Ruby\]([https://blog.alexandrecalaca.com/tag/ruby](https://blog.alexandrecalaca.com/tag/ruby))
-    
-* \[Rails\]([https://blog.alexandrecalaca.com/tag/](https://blog.alexandrecalaca.com/tag/ruby)rails)
+* [Ruby](https://blog.alexandrecalaca.com/tag/ruby)
+* [Rails](https://blog.alexandrecalaca.com/tag/rails)
+* [Linux](https://blog.alexandrecalaca.com/tag/linux)
