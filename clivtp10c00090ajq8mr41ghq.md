@@ -22,6 +22,14 @@ Anki uses the `spaced repetition` concept, which is an evidence-based learning t
 
 ---
 
+#### 0-Run the requirements
+
+```apache
+sudo apt install libxcb-xinerama0 libxcb-cursor0
+```
+
+---
+
 #### 1 - Update your system
 
 Open the terminal and run the following command:
