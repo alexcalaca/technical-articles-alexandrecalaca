@@ -8,6 +8,10 @@ tags: ubuntu, linux, debian
 
 ---
 
+#### `Revisited on June 28th, 2023`
+
+---
+
 #### Open the terminal
 
 Press `CTRL + Alt + T` on your keyboard
@@ -30,7 +34,7 @@ The output would be something like this
 
 #### Install management software repository
 
-`apache sudo apt-get install software-properties-common`
+`sudo apt-get install software-properties-common`
 
 Your output should be something like this
 
@@ -48,7 +52,7 @@ sudo apt-get update
 
 #### Install snap
 
-`apache sudo apt install snapd`
+`sudo apt install snapd`
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682733558648/bcfbd217-2bc4-46ad-bcc8-1779e1a4408c.png align="center")
 
@@ -92,4 +96,6 @@ Your output should be something like the following
 
 #### Celebrate
 
- ![Pleasantly Surprised GIF - Michael Scott Steve Carell OMG - Discover &  Share GIFs](https://media.tenor.com/teFSAfy_xVQAAAAC/michael-scott-steve-carell.gif align="left")
+![Pleasantly Surprised GIF - Michael Scott Steve Carell OMG - Discover &  Share GIFs](https://media.tenor.com/teFSAfy_xVQAAAAC/michael-scott-steve-carell.gif align="left")
+
+---
