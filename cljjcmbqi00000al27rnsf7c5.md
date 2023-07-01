@@ -8,7 +8,7 @@ tags: programming-blogs, ruby, web-development, ruby-on-rails
 
 ---
 
-> ***TL***;***DR: The secret is the method*** `reflect_on_alll_associations`
+> TL;DR: The secret is the method `reflect_on_all_associations`
 
 ---
 
@@ -32,7 +32,7 @@ In this article, we will explore a simple yet effective approach to gain insight
 
 ## Context
 
-Basically, we need to find the object, use the keyword `class` on it and then call the `reflect_on_all_assotions` method.
+Basically, we need to find the object, use the keyword `class` on it and then call the `reflect_on_all_associations` method.
 
 This solution was tested in the following Rails versions: 3.2, 6.1 and 7.0.
 
