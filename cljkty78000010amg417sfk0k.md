@@ -93,7 +93,7 @@ Output
 
 ---
 
-### Update the system
+## Update the system
 
 In the terminal
 
@@ -248,7 +248,7 @@ After running this command, Discord should launch in the background, and you can
 
 ---
 
-### **Be happy**
+## **Be happy**
 
 You got here. Way to go!
 
