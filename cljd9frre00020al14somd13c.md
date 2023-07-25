@@ -8,11 +8,15 @@ tags: interview, programming-blogs, ruby, ruby-on-rails, leetcode
 
 ---
 
+`Revisited on July 25th, 2023`
+
 ---
 
 ### Description
 
-Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
+[LeetCode Problem 217](https://leetcode.com/problems/contains-duplicate/)
+
+> Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
 ---
 
@@ -45,14 +49,6 @@ If there is at least one value that appears more than once, the function should 
 Since there are no constraints that forbid us from using a Ruby built-in function, I think one good approach is to use the `uniq` method.
 
 We can compare the original array with the other array after removing duplicates. If they differ, it means there are duplicates in the array.
-
-```apache
-# @param {Integer[]} nums
-# @return {Boolean}
-def contains_duplicate(nums)
-    # todo
-end
-```
 
 ---
 
@@ -110,7 +106,7 @@ This comparison `nums != nums.uniq` returns true or false.
 
 The ternary operators `?` and `:` enforce the return.
 
-Thes ternary expression returns `true` if there were duplicates in the original array (`nums != nums.uniq` is `true`), and `false` if there were no duplicates (`nums != nums.uniq` is `false`).
+The ternary expression returns `true` if there were duplicates in the original array (`nums != nums.uniq` is `true`), and `false` if there were no duplicates (`nums != nums.uniq` is `false`).
 
 ---
 
@@ -120,9 +116,11 @@ Thes ternary expression returns `true` if there were duplicates in the original 
 # @param {Integer[]} nums
 # @return {Boolean}
 def contains_duplicate(nums)
-    nums != nums.uniq ? true : false
+    nums != nums.uniq
 end
 ```
+
+Since the comparison `nums != nums.uniq` already returns `true` or `false`, it's not necessary to use the ternary expression.
 
 ---
 
