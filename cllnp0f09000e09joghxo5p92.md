@@ -118,21 +118,37 @@ It's not necessary to click on Ok. Just choose it and close the window.
 
 ---
 
+## Restart your operating system
+
+---
+
 ### Open default terminal
 
-Press the shortcut `CTRL + ALT + T`. In case it does not work, you'll have to configure this shortcut to open the default terminal.
+After restarting your operating system, let's try two approaches to check our change.
+
+---
+
+### Default terminal short
+
+Press the shortcut `CTRL + ALT + T`.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692792478492/51ec3358-03f7-4ade-95ea-9c1812af0d61.png align="center")
 
 ---
 
-### Done
+### Folder context menu
+
+Choose one folder and click on it with the right click. Choose `Open Terminal`.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692794030471/e4cf5d00-a378-42c9-b512-ded2740a6a3a.png align="center")
+
+Output:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692794062585/a94fdef8-678c-49f4-8852-a61c0052da16.png align="center")
 
 ---
 
-### **Done**
-
-Restart your server
+### Done
 
 ---
 
