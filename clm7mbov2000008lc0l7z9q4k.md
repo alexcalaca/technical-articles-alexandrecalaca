@@ -373,10 +373,10 @@ You've made it!
 
 ## **Final thoughts**
 
-I hope this article helped you. Let me know if you have any questions. Your thoughts, suggestions and corrections are more than welcome.
+I hope this article has been helpful to you. Please feel free to reach out if you have any questions. Your thoughts, suggestions, and corrections are more than welcome.
 
-By the way, feel free to drop your suggestions on new blog articles.
+By the way, don't hesitate to drop your suggestions for new blog articles.
 
-Hope to see you next time.
+I look forward to seeing you next time
 
 ---
