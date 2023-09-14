@@ -37,8 +37,6 @@ or
 
 ```apache
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
-
-###
 ```
 
 In summary, the provided command is used to install essential packages and utilities that are commonly required for adding external repositories, securely fetching packages over HTTPS, and managing software sources on an Ubuntu system. These packages are often necessary for setting up and maintaining software on your system.
@@ -140,6 +138,10 @@ sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-
 Output
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694457278122/5705bf38-bbfc-418f-bc1d-bdaf8c699c94.png align="center")
+
+---
+
+## Done
 
 ---
 
