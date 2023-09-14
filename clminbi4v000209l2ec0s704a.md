@@ -1,8 +1,8 @@
 ---
-title: "How to install Visual Studio Code on Deepin OS 20.7?"
+title: "How to install Visual Studio Code on Deepin OS 20.7 via the App Store?"
 datePublished: Thu Sep 14 2023 04:03:36 GMT+0000 (Coordinated Universal Time)
 cuid: clminbi4v000209l2ec0s704a
-slug: how-to-install-visual-studio-code-on-deepin-os-207
+slug: how-to-install-visual-studio-code-on-deepin-os-207-via-the-app-store
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/xgcCGDGIcfY/upload/8dcee015caf4b8438b701db901af59b4.jpeg
 tags: tutorial, ubuntu, programming-blogs, debian, deepin
 
