@@ -7,6 +7,57 @@ tags: tutorial, ubuntu, linux, debian, deepin
 
 ---
 
+`Revisited and updated on October 1st, 2023`
+
+---
+
+## SSH keys
+
+SSH keys, short for Secure Shell keys, are a pair of cryptographic keys used in secure communication between two computers over a network, typically the internet.
+
+They are commonly used to authenticate and secure remote connections to servers, systems, or other devices. SSH keys consist of two parts: public key and private key.
+
+---
+
+## Note
+
+My articles are constantly evolving, and I welcome any feedback, corrections, broken links, or suggestions you may have. Please don't hesitate to share them with me, and I'll be grateful for your input.
+
+Give me a shout or add me:
+
+* [**Github**](https://github.com/elitebughunter)
+    
+* [**LinkedIn**](https://linkedin.com/in/alexandrecalacaofficial)
+    
+* [**Hashnode**](https://hashnode.com/onboard?next=/@alexandrecalaca)
+    
+* [**Youtube**](https://www.youtube.com/@alexandrecalacaofficial)
+    
+
+---
+
+## **Let's get down to business**
+
+shall we?
+
+![The-office GIFs - Get the best GIF on GIPHY](https://media1.giphy.com/media/BpGWitbFZflfSUYuZ9/giphy.gif align="left")
+
+---
+
+## Check your OS
+
+This step is just to make sure you have **Linux Mint** or a \*\*Ubuntu-\*\*based Linux distribution.
+
+```ruby
+cat /etc/os-release
+lsb_release -a
+uname -a
+```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696187393881/b9d11c02-f4db-4f41-bce5-fd13d690c4c1.png align="center")
+
 ---
 
 ## Generate SSH-key
