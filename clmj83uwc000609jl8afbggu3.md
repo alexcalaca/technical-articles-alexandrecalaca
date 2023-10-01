@@ -139,11 +139,41 @@ ls ~/.ssh/
 
 ---
 
+## Tell SSH-agent
+
+`ssh-agent` is a program that acts as a background agent to store and manage your SSH private keys.
+
+It is commonly used on Unix-like operating systems, including Linux and macOS, to facilitate secure and convenient SSH key-based authentication.
+
+```ruby
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/<personal_key>
+```
+
+The ssh-add command alone should work for adding your SSH private key to the agent.
+
+Just replace `<personal_key>` with the actual filename of your SSH private key.
+
+With a ssh key called `linux_mint_ebh_ssh_key`, take a look at how it's going to become:
+
+```ruby
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/linux_mint_ebh_ssh_key
+```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696188288743/1adc33cb-4e44-4c59-a242-d4ae10f63113.png align="center")
+
+---
+
 ## Check your recently created keys
 
 ```plaintext
-cat ~/.ssh/ssh_key_mdt.pub
+cat ~/.ssh/<personal_key>.pub
 ```
+
+Just replace `<personal_key>` with the actual filename of your SSH private key.
 
 Output
 
