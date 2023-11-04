@@ -8,13 +8,21 @@ tags: ubuntu, linux, debian, telegram
 
 ---
 
+`Revisited and updated on November 04th, 2023.`
+
 ---
 
 ## Telegram
 
+Telegram is a cloud-based instant messaging app that allows users to send text messages, voice messages, multimedia files, and make voice and video calls over the internet.
+
+It was developed by Pavel Durov and his team and was first launched in 2013.
+
+Telegram is available as a mobile app for smartphones and tablets, as well as a desktop application for Windows, macOS, and Linux.
+
 ---
 
-## Update system's package repository
+## Update the system's package repository
 
 ```plaintext
 sudo apt update
