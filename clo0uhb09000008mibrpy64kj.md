@@ -105,7 +105,7 @@ Click on the **Get TEelegram for Linux x64** button or clicked directly on the f
 ## Extract the file
 
 ```plaintext
-tar -xJvf ~/Downloads/tsetup.4.10.3.tar.xz 
+tar -xJvf ~/Downloads/tsetup.4.10.3.tar.xz
 ```
 
 Output:
@@ -141,7 +141,7 @@ Output
 
 ---
 
-## MOve TElegram binary
+## Move Telegram binary
 
 ```plaintext
 sudo mv Telegram/ /opt/telegram
@@ -187,7 +187,7 @@ Output
 
 ---
 
-## Open TElegram
+## Run Telegram
 
 ```plaintext
 telegram
