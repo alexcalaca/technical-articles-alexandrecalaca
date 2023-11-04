@@ -8,6 +8,43 @@ tags: tutorial, ubuntu, linux, docker, deepin
 
 ---
 
+`Revisited and updated on November 04th, 2023.`
+
+---
+
+## Docker
+
+Docker is a platform for developing, shipping, and running applications in containers.
+
+Containers are lightweight, portable, and self-sufficient units that can package an application and its dependencies, including libraries and configuration files, into a single, consistent environment.
+
+This allows developers to create, deploy, and manage applications more efficiently, regardless of the underlying infrastructure.
+
+---
+
+### **Let's get down to business**
+
+shall we?
+
+![The-office GIFs - Get the best GIF on GIPHY](https://media1.giphy.com/media/BpGWitbFZflfSUYuZ9/giphy.gif align="left")
+
+---
+
+## **Check your OS (optional)**
+
+This step is just to make sure you have **Deepin Linux installed.**
+
+```plaintext
+lsb_release -a
+hostnamectl
+cat /etc/os-release
+uname -a
+```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698772856976/3bf1885b-0024-4886-a8b3-d6a891175205.png?auto=compress,format&format=webp&auto=compress,format&format=webp align="left")
+
 ---
 
 ## Update packages info
@@ -43,7 +80,7 @@ In summary, the provided command is used to install essential packages and utili
 
 ---
 
-## Docker GPG key:
+## Download Docker GPG (GNU Privacy Guard) key
 
 ```apache
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -55,15 +92,31 @@ Output
 
 ---
 
+## Check Docker GPG key
+
+```plaintext
+The sudo apt-key fingerprint command is used to display the fingerprint of a GPG key that has been added to the APT (Advanced Package Tool) keyring on a Debian-based Linux system. The fingerprint is a unique identifier for a GPG key, and it's used to verify the authenticity of the key.
+```
+
+The output would be something like the following:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699068387532/61869482-ece6-4238-a531-c207764ecd77.png align="center")
+
+`0EBFCD88` is the key ID or key fingerprint of the GPG key for which you want to retrieve information. In this case, `0EBFCD88` is typically the GPG key associated with the Docker repository.
+
+The `sudo apt-key fingerprint` command is used to display the fingerprint of a GPG key that has been added to the APT (Advanced Package Tool) keyring on a Debian-based Linux system. The fingerprint is a unique identifier for a GPG key, and it's used to verify the authenticity of the key.
+
+---
+
 ## Docker repository for GPG key
 
 ```apache
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+printf 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable\n'| sudo tee /etc/apt/sources.list.d/docker-ce.list
 ```
 
-Output
+Output would be something like the following:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694456122993/5a92ef1e-a3fa-4f2c-8680-7a4ef8311f76.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699068608052/fa762913-fd41-4316-ae4b-6d9b58ad611a.png align="center")
 
 The command constructs a repository source entry for Docker, based on your distribution's codename (obtained using lsb\_release -cs), and then writes that entry to the /etc/apt/sources.list.d/docker.list file.
 
@@ -88,6 +141,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 Output
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694456616119/3f2e323a-419e-4c0c-860f-b5d1db432a82.png align="center")
+
+`docker-ce` is the package name for Docker CE (Community Edition), which is the version of Docker designed for community use and development environments.
+
+Docker CE Command Line Interface (CLI) is available through the package `docker-ce-cli`. It provides the command-line tools for working with Docker containers and images.
+
+[`containerd.io`](http://containerd.io) is the package name for `containerd`, which is an essential component of the Docker runtime that manages containers and provides a basic infrastructure for container execution.
 
 ---
 
