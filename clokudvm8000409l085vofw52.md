@@ -38,10 +38,6 @@ shall we?
 
 This step is just to make sure you have **Deepin Linux installed.**
 
-**COPY**
-
-**COPY**
-
 ```basic
 lsb_release -a
 hostnamectl
@@ -81,7 +77,7 @@ sudo apt update
 
 ```plaintext
 cd Downloads/
-tar -xJvf tsetup.4.11.3.tar.xz 
+tar -xJvf tsetup.4.11.3.tar.xz
 ```
 
 Output
@@ -93,7 +89,7 @@ elitebughunter@elitebughunter-PC:~/Downloads$ tar -xJvf tsetup.4.11.3.tar.xz
 Telegram/
 Telegram/Updater
 Telegram/Telegram
-elitebughunter@elitebughunter-PC:~/Downloads$ 
+elitebughunter@elitebughunter-PC:~/Downloads$
 ```
 
 ---
@@ -128,7 +124,7 @@ elitebughunter@elitebughunter-PC:~/Downloads$ ls
 docker-desktop-4.25.0-amd64.deb  Others  Telegram  tsetup.4.11.3.tar.xz
 elitebughunter@elitebughunter-PC:~/Downloads$ ls Telegram/
 Telegram  Updater
-elitebughunter@elitebughunter-PC:~/Downloads$ 
+elitebughunter@elitebughunter-PC:~/Downloads$
 ```
 
 ---
