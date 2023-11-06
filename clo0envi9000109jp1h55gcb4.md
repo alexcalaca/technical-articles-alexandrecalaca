@@ -4,9 +4,11 @@ datePublished: Sat Oct 21 2023 19:00:50 GMT+0000 (Coordinated Universal Time)
 cuid: clo0envi9000109jp1h55gcb4
 slug: how-to-install-vs-code-on-fedora-38-a-step-by-step-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/1bNQVGzuy0U/upload/1c14b211386f0eb733ecd2533d4c7b3d.jpeg
-tags: tutorial, linux, vscode, fedora, linux-for-beginners
+tags: linux, vscode, fedora, linux-for-beginners, alexandrecalaca
 
 ---
+
+`Revisited and updated on November 06th, 2023.`
 
 ---
 
@@ -99,6 +101,10 @@ This step is to ensure we import the `GNU Privacy Guard` public key into the sys
 ```plaintext
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 ```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699267936924/5ca41d4c-4262-4d2d-83a7-dd417de78694.png align="center")
 
 `rpm` is the Red Hat Package Manager, a tool used for managing software packages on Red Hat-based Linux distributions, such as Red Hat Enterprise Linux, CentOS, and Fedora.
 
