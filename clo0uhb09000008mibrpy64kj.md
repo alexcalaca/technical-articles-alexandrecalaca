@@ -4,9 +4,11 @@ datePublished: Sun Oct 22 2023 02:23:37 GMT+0000 (Coordinated Universal Time)
 cuid: clo0uhb09000008mibrpy64kj
 slug: installing-telegram-on-linux-a-comprehensive-common-guide-for-all-distributions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697936892276/ec68908e-fe67-4025-a9f8-4bbbb4beb713.jpeg
-tags: tutorial, linux, linux-for-beginners, linux-basics
+tags: tutorial, linux, linux-for-beginners, linux-basics, alexandrecalaca
 
 ---
+
+`Revisited and updated on November 06th, 2023.`
 
 ---
 
@@ -98,7 +100,7 @@ Go to the [official website](https://desktop.telegram.org/) or click directly on
 
 ## Download Telegram
 
-Click on the **Get TEelegram for Linux x64** button or clicked directly on the following link: [https://telegram.org/dl/desktop/linux](https://telegram.org/dl/desktop/linux)
+Click on the **Get Telegram for Linux x64** button or click directly on the following link: [https://telegram.org/dl/desktop/linux](https://telegram.org/dl/desktop/linux)
 
 ---
 
