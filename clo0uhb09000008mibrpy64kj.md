@@ -104,6 +104,21 @@ Click on the **Get Telegram for Linux x64** button or click directly on the foll
 
 ---
 
+## Check downloaded file
+
+```plaintext
+ls ~/Downloads/
+```
+
+Your output should include a file called something like the following:
+
+```plaintext
+[elitebughunter@192 ~]$ ls ~/Downloads/
+tsetup.4.11.3.tar.xz
+```
+
+---
+
 ## Extract the file
 
 ```plaintext
