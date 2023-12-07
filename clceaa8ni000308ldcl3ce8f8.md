@@ -1,0 +1,142 @@
+---
+title: "Rails: How to configure NodeJS 16.x with Rails 6 on DeepinOS 20.7"
+datePublished: Mon Jan 02 2023 04:10:34 GMT+0000 (Coordinated Universal Time)
+cuid: clceaa8ni000308ldcl3ce8f8
+slug: rails-how-to-configure-nodejs-16x-with-rails-6-on-deepinos-207
+tags: ubuntu, ruby-on-rails, nodejs, npm, deepinos, alexandrecalaca
+
+---
+
+`Revisited on December 07th, 2023`
+
+---
+
+Hey guys, how have you been?
+
+Today, we are going to learn how to configure `NodeJS 16.x` with Rails 6 on DeepinOS 20.7.
+
+---
+
+### Introduction
+
+`Node.js®` is an open-source, cross-platform JavaScript runtime environment. It works as an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
+
+`Node.js` is similar in design to, and influenced by, systems like [Ruby's Event Machine](https://github.com/eventmachine/eventmachine) and Python's Twisted.
+
+---
+
+#### **1 - Install the NodeSource**
+
+```ruby
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+```
+
+You should be able to see something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672630821378/357dbf93-aa5d-4cb9-a769-af0f1befc219.png align="center")
+
+---
+
+#### 2- Install Node16 and npm
+
+```ruby
+sudo apt-get install -y nodejs
+```
+
+You should see something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672632227898/60209b95-e511-4cc2-bb2e-c6decf8236eb.png align="center")
+
+---
+
+#### **3 - Install Yarn (Package manager)**
+
+```ruby
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+```
+
+The result would be something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672631097073/5c73c0ff-7172-4c4d-b980-9644a6d476c3.png align="center")
+
+---
+
+#### **4\. Check if** `NodeJS` **is installed**
+
+Just to make sure that \``NodeJs`\` is already installed.
+
+```ruby
+which node
+```
+
+You should be able to see something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672631313064/0ff79512-e2f3-4f80-b5ef-4cb86c3dc9cc.png align="center")
+
+---
+
+#### 5 - **Check if** `Yarn` **is installed**
+
+Just to make sure that \``Yarn`\` is already installed.
+
+```ruby
+which yarn
+```
+
+You should be able to see something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672631704543/1e93549c-f470-4d59-a43d-157b14f085cc.png align="center")
+
+---
+
+#### 6 - Check `NodeJS` 's version
+
+```ruby
+node -v
+```
+
+or
+
+```ruby
+node --version
+```
+
+You should get something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672631556225/26f37205-a16c-4ba2-8194-bd2ac286a216.png align="center")
+
+---
+
+#### 7 - Check `Yarn`'s version
+
+```ruby
+yarn -v
+```
+
+or
+
+```ruby
+yarn --version
+```
+
+You should get something like this
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672631856892/a16635ee-ffc9-4819-9b5d-48354d199d46.png align="center")
+
+---
+
+#### 8 - Celebrate
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670467202120/39r84GZVW.png align="left")
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670125312642/Mk2RfkJIJ.png align="left")
+
+---
+
+### Conclusion
+
+That's all for today. I hope this article helped you. Let me know if you have any questions.
+
+---
