@@ -4,9 +4,11 @@ datePublished: Mon Sep 25 2023 21:00:31 GMT+0000 (Coordinated Universal Time)
 cuid: clmzdhmwj000909md2vevc8b4
 slug: how-to-install-terminator-on-linux-mint-21-vanessa-or-any-other-ubuntu-based-linux-distribution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695675420137/7cf724fe-6ab8-47b1-bfbe-7b3c9afbeb45.png
-tags: tutorial, ubuntu, linux, terminal, installation
+tags: tutorial, ubuntu, linux, terminal, installation, alexandrecalaca
 
 ---
+
+`Revisited and updated on December 09th, 2023`
 
 ---
 
@@ -55,6 +57,10 @@ sudo apt-get update
 ```ruby
 sudo apt install terminator
 ```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702148614294/afb92ec9-04eb-4777-8264-ebd25f67afc3.png align="center")
 
 ---
 
