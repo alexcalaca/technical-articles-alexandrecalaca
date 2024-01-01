@@ -1,0 +1,176 @@
+---
+title: "How to run a cloned React application with Vite on Pop!_OS 22.04"
+datePublished: Mon Jan 01 2024 05:13:57 GMT+0000 (Coordinated Universal Time)
+cuid: clqugttjd000008ky88algi5o
+slug: how-to-run-a-cloned-react-application-with-vite-on-popos-2204
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704085981407/241e0358-c86d-4de5-aad2-79d5ad0d3baa.webp
+tags: javascript, reactjs, javascript-framework, popos, alexandrecalaca
+
+---
+
+---
+
+## Vite
+
+Vite is a build tool for modern web development that aims to provide a faster and more efficient development experience. It's specifically designed for building web applications using modern JavaScript frameworks such as React, Vue, and others. The name "Vite" is derived from the French word for "fast."
+
+---
+
+## **Let's get down to business**
+
+Shall we?
+
+![It Crowd Brilliant Reaction Maurice Moss GIF | GIFDB.com](https://gifdb.com/images/high/it-crowd-brilliant-reaction-maurice-moss-dsk6k8go7wzin5p3.gif align="left")
+
+---
+
+### **Check your OS (optional)**
+
+This step is just to make sure you have `Pop!_OS` installed.
+
+**COPY**
+
+```plaintext
+uname -a
+hostnamectl
+lsb_release -a
+cat /etc/os-release
+```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701960709361/81a5f20c-2703-45ff-83d3-440318836a26.png?auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp align="left")
+
+---
+
+## **Update packages info**
+
+```plaintext
+sudo apt-get update
+```
+
+Running `sudo apt-get update` is an important step before installing or upgrading packages on your system because it ensures that you have the most up-to-date information about available packages.
+
+Without updating the package index, you might not see the latest versions of software or be able to install new packages that have been added to the repositories since the last update.
+
+---
+
+## **Install Vite Locally**
+
+Make sure that Vite is listed as a dependency in your project's `package.json` file.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704084454542/d80b960d-1ae7-427a-af1f-87431ded3494.png align="center")
+
+If it's not there, you should add it as a development dependency:
+
+```plaintext
+npm install --save-dev vite
+```
+
+---
+
+## **Check npm Scripts**
+
+Execute this step if you are cloning a React application.
+
+Ensure that your `package.json` file contains the correct npm scripts. In your case, the "dev" script seems to be using "vite". Confirm that the "dev" script is defined as follows:
+
+```plaintext
+"scripts": {
+  "dev": "vite"
+}
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704083780219/9d198cb5-1da5-406d-9001-55eee4895f67.png align="center")
+
+---
+
+## **Verify npm Installation**
+
+```plaintext
+which npm
+npm --help
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704083973948/bc2574a6-ddbf-413b-abee-4d77f3db8ee8.png align="center")
+
+Make sure that npm is installed.
+
+---
+
+## Install dependencies
+
+Make sure that npm is installed and your project has the required dependencies.
+
+```plaintext
+npm install
+```
+
+Output
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704084209676/88fa8e1a-7371-41eb-bde5-ef24b9706fce.png align="center")
+
+---
+
+## **Check npm Binaries**
+
+Sometimes, the binaries installed by npm may not be in your system's PATH. Ensure that the `node_modules/.bin` directory is in your PATH or try running the command with npx:
+
+```plaintext
+npx vite
+```
+
+Successful output:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704084581515/ce0969e1-1ca7-4cb8-8783-f6f834af8116.png align="center")
+
+---
+
+## Start the server
+
+The command npm run dev is typically used to start a development server for a web application. It's part of the npm scripts defined in the "scripts" section of a project's package.json file.
+
+```plaintext
+npm run dev
+```
+
+Successful output:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704084581515/ce0969e1-1ca7-4cb8-8783-f6f834af8116.png align="center")
+
+---
+
+## **Done**
+
+---
+
+## **Celebrate**
+
+![The It Crowd Birthday GIFs | Tenor](https://media.tenor.com/kDyYq4PQuIgAAAAC/clapping-it-crowd.gif align="left")
+
+---
+
+## **Reach me out**
+
+* [**Github**](https://github.com/alexcalaca)
+    
+* [**LinkedIn**](https://linkedin.com/in/alexandrecalacaofficial)
+    
+* [**Hashnode**](https://hashnode.com/onboard?next=/@alexandrecalaca)
+    
+* [**Youtube**](https://www.youtube.com/@alexandrecalacaofficial)
+    
+
+---
+
+## Final thoughts
+
+Thank you for reading this article.
+
+If you have any questions, thoughts, suggestions, or corrections, please share them with us.
+
+We appreciate your feedback and look forward to hearing from you.
+
+Feel free to suggest topics for future blog articles. Until next time!
+
+---
