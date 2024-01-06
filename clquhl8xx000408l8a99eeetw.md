@@ -44,7 +44,7 @@ Output
 ## Change the flag
 
 ```plaintext
-npm run dev -- --port 4000
+npm run dev --port 4000
 ```
 
 Output
@@ -107,3 +107,5 @@ If you have any questions, thoughts, suggestions, or corrections, please share t
 We appreciate your feedback and look forward to hearing from you.
 
 Feel free to suggest topics for future blog articles. Until next time!
+
+---
