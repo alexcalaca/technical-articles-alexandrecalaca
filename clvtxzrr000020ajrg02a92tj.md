@@ -11,11 +11,11 @@ tags: tutorial, blogging, hashnode, neptune
 
 ## Neptune
 
-Neptune editor is a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) [editor](https://en.wikipedia.org/wiki/WYSIWYG) that offers a number of commands for text formatting, embedding (widget, third-party code service, and social media), and an AI writing assistance to improve your writing experience.
+Neptune editor is a [WYSIWYGeditor](https://en.wikipedia.org/wiki/WYSIWYG) that offers a number of commands for text formatting, embedding (widget, third-party code service, and social media), and an AI writing assistance to improve your writing experience.
 
 ---
 
-## **While typing:**
+### **While typing:**
 
 * Enter `**` on both sides of your text to **bold.**
     
@@ -26,7 +26,7 @@ Neptune editor is a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) [editor](ht
 
 ---
 
-## **At the beginning of a block line**
+### **At the beginning of a block line**
 
 Use any of these shortcuts at the beginning of a new line or existing content:
 
@@ -49,7 +49,7 @@ Use any of these shortcuts at the beginning of a new line or existing content:
 
 ---
 
-## **Two Keys Shortcuts**
+### **Two Keys Shortcuts**
 
 Try the following before writing a text or on a selected text:
 
@@ -68,7 +68,7 @@ Try the following before writing a text or on a selected text:
 
 ---
 
-## **The @ Mention Command**
+### **The @ Mention Command**
 
 Enter the `@` symbol using `shift` + `2` to tag an Hashnode user and they'll be notified. This is useful in giving a shout-out to someone within your article. Their embedded name will lead to their profile on Hashnode.
 
@@ -76,7 +76,7 @@ Enter the `@` symbol using `shift` + `2` to tag an Hashnode user and they'll be 
 
 ---
 
-## **Focus Mode**
+### **Focus Mode**
 
 Press `cmd/ctrl` + `Shift` + `I` to toggle focus mode in the editor. For more information on editor focus mode, please refer to [this official guide](https://support.hashnode.com/en/articles/7213717-editor-focus-mode).
 
