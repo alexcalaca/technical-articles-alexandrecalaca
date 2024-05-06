@@ -9,7 +9,9 @@ tags: ruby, ruby-on-rails, alexandrecalaca
 
 ---
 
-## Regular process
+## Require
+
+### Regular process
 
 The process to require a module/library is by using:
 
@@ -21,7 +23,9 @@ require 'objspace'
 
 ---
 
-## List all loaded features
+## "Unrequire"
+
+### List all loaded features
 
 Everytime you require a module/library in ruby, this new value is added to the `$LOADED_FEATURES` array.
 
@@ -35,7 +39,7 @@ $LOADED_FEATURES
 
 ---
 
-## Find your module/library
+### Find your module/library
 
 Yes, you can use the `$LOADED_FEATURES` array directly to check if your module or library has been loaded.
 
@@ -51,7 +55,7 @@ In the previous example, `readline` is an example of a Ruby module/library.
 
 ---
 
-## Mutate the loaded features
+### Mutate the loaded features
 
 In Ruby, once you've required a module or library using the `require` keyword, you can't directly "unrequire" it. However, you can achieve a similar effect by removing the module from the `$LOADED_FEATURES` array.
 
@@ -65,7 +69,7 @@ In my previous example, `benchmark` is the module/library.
 
 ---
 
-## Double check the loaded features
+### Double check the loaded features
 
 Let's check if the `benchmark` module was removed from the `$LOADED_FEATURES` array:
 
