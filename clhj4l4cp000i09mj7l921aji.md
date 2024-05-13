@@ -8,9 +8,14 @@ tags: hashnode, 2articles1week, alexandrecalaca
 
 ---
 
-[All Articles](https://blog.alexandrecalaca.com/archive)
+---
 
-Articles by category (tags):
+### All Articles
+
+* [All Articles](https://blog.alexandrecalaca.com/archive)
+    
+
+### Articles by category (tags):
 
 * [Ruby](https://blog.alexandrecalaca.com/tag/ruby)
     
@@ -18,4 +23,7 @@ Articles by category (tags):
     
 * [Linux](https://blog.alexandrecalaca.com/tag/linux)
     
-* [<mark>English lessons</mark>](https://blog.alexandrecalaca.com/tag/english-lesson)
+* [English lessons](https://blog.alexandrecalaca.com/tag/english-lesson)
+    
+
+---
