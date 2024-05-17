@@ -1,8 +1,8 @@
 ---
-title: "Our database performance has really taken a hit"
+title: "English lesson: Our database performance has really taken a hit"
 datePublished: Fri May 17 2024 11:57:34 GMT+0000 (Coordinated Universal Time)
 cuid: clwamkl0a000d0amh6nh4crq1
-slug: our-database-performance-has-really-taken-a-hit
+slug: english-lesson-our-database-performance-has-really-taken-a-hit
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GNyjCePVRs8/upload/0eedbe03a9c99c19cc43b3074fb371f4.jpeg
 tags: alexandrecalaca, english-lesson, english-class
 
