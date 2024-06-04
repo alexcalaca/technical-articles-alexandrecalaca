@@ -1,8 +1,8 @@
 ---
-title: "Check if a specific column has an index in a Ruby on Rails application"
+title: "Checking if a specific column has an index in a Ruby on Rails application"
 datePublished: Tue Jun 04 2024 02:52:54 GMT+0000 (Coordinated Universal Time)
 cuid: clwzt1hck000f09l5gjv0ez24
-slug: check-if-a-specific-column-has-an-index-in-a-ruby-on-rails-application
+slug: checking-if-a-specific-column-has-an-index-in-a-ruby-on-rails-application
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/k64lqvVxpew/upload/07dbbc2d3a0d21b838b4a62254c76a36.jpeg
 tags: ruby, ruby-on-rails, alexandrecalaca
 
