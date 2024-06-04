@@ -62,7 +62,7 @@ Besides, this will print the name, columns, and uniqueness of each index on the 
 
 ### Conclusion
 
-By following these steps, you can easily visualize how singleton methods work in Ruby.
+By following these steps, you can easily visualize how to list all indexes of a specific table in a Rails application.
 
 ---
 
