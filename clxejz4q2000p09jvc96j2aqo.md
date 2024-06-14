@@ -10,6 +10,22 @@ tags: business, english, alexandrecalaca, english-lesson, english-class
 
 ---
 
+## Introduction
+
+### Situation
+
+Bob's job search leads him to a promising opening at Stanley's company. Eager to explore this opportunity, Ben reaches out to Stanley through LinkedIn.
+
+What follows is a professional yet personable exchange where Ben showcases his experience and enthusiasm, and Stanley provides insight into the role and the company's dynamic environment.
+
+This conversation illustrates the importance of networking and clear communication in advancing one’s career in the tech industry.
+
+---
+
+## Conversation
+
+### Dialog
+
 **Ben:** Hi Stanley, I hope you're doing well. I recently `came across` the Software Engineer opening at XYZ company, focusing on real-time `data streaming` applications, and I'm very interested. Could we discuss this opportunity?
 
 **Stanley:** Hi Ben, I’m doing well, thanks. Sure, I'd be happy to discuss it. What specifically interests you about the role?
@@ -18,11 +34,11 @@ tags: business, english, alexandrecalaca, english-lesson, english-class
 
 **Stanley:** That sounds great. Can you tell me more about your experience with Kafka and real-time data streaming?
 
-**Ben:** Absolutely. I’ve spent the last three years working at DCA Company, where I focused on building and optimizing real-time data pipelines using Kafka. One of my key achievements was designing a scalable data streaming platform that reduced `data processing` `latency` by 40%.
+**Ben:** Absolutely. I’ve spent the last three years working at DCA Company, where I focused on building and optimizing real-time data pipelines using Kafka. One of my key achievements was designing a scalable data streaming platform that reduced `data processinglatency` by 40%.
 
 **Stanley:** Impressive! It sounds like you have some solid experience. How do you handle working under `tight deadlines`, especially when dealing with real-time data applications?
 
-**Ben:** I `thrive in` `fast-paced environments`. At CDA, I often managed multiple projects with tight deadlines. My strategy involves prioritizing tasks, effective time management, and clear communication with my team. With real-time applications, ensuring high availability and `low latency` is crucial, and I’ve developed robust monitoring and alerting systems to maintain performance under pressure.
+**Ben:** I `thrive infast-paced environments`. At CDA, I often managed multiple projects with tight deadlines. My strategy involves prioritizing tasks, effective time management, and clear communication with my team. With real-time applications, ensuring high availability and `low latency` is crucial, and I’ve developed robust monitoring and alerting systems to maintain performance under pressure.
 
 **Stanley:** That’s good to hear. Collaboration and communication are crucial for us. Do you have any questions about the role or our company?
 
@@ -233,13 +249,23 @@ tags: business, english, alexandrecalaca, english-lesson, english-class
 
 ### Initial role play
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>came across</p></td><td colspan="1" rowspan="1"><p>data streaming</p></td><td colspan="1" rowspan="1"><p>aligns well</p></td></tr><tr><td colspan="1" rowspan="1"><p>data pipelines</p></td><td colspan="1" rowspan="1"><p>data processing</p></td><td colspan="1" rowspan="1"><p>low latency</p></td></tr><tr><td colspan="1" rowspan="1"><p>tight deadlines</p></td><td colspan="1" rowspan="1"><p>thrive in</p></td><td colspan="1" rowspan="1"><p>fast-paced environments</p></td></tr><tr><td colspan="1" rowspan="1"><p>dynamic team</p></td><td colspan="1" rowspan="1"><p>troubleshooting issues</p></td><td colspan="1" rowspan="1"><p>key achievements</p></td></tr></tbody></table>
+|  |  |  |
+| --- | --- | --- |
+| came across | data streaming | aligns well |
+| data pipelines | data processing | low latency |
+| tight deadlines | thrive in | fast-paced environments |
+| dynamic team | troubleshooting issues | key achievements |
 
 ---
 
 ### Final role play
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>came across</p></td><td colspan="1" rowspan="1"><p>data streaming</p></td><td colspan="1" rowspan="1"><p>aligns well</p></td></tr><tr><td colspan="1" rowspan="1"><p>data pipelines</p></td><td colspan="1" rowspan="1"><p>data processing</p></td><td colspan="1" rowspan="1"><p>low latency</p></td></tr><tr><td colspan="1" rowspan="1"><p>tight deadlines</p></td><td colspan="1" rowspan="1"><p>thrive in</p></td><td colspan="1" rowspan="1"><p>fast-paced environments</p></td></tr><tr><td colspan="1" rowspan="1"><p>dynamic team</p></td><td colspan="1" rowspan="1"><p>troubleshooting issues</p></td><td colspan="1" rowspan="1"><p>key achievements</p></td></tr></tbody></table>
+|  |  |  |
+| --- | --- | --- |
+| came across | data streaming | aligns well |
+| data pipelines | data processing | low latency |
+| tight deadlines | thrive in | fast-paced environments |
+| dynamic team | troubleshooting issues | key achievements |
 
 ---
 
