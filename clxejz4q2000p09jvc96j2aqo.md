@@ -30,15 +30,15 @@ This conversation illustrates the importance of networking and clear communicati
 
 **Stanley:** Hi Ben, I’m doing well, thanks. Sure, I'd be happy to discuss it. What specifically interests you about the role?
 
-**Ben:** I’m particularly excited about the opportunity to work with real-time data streaming and Kafka. My background in developing scalable data streaming solutions `aligns well` with the job description, and I believe I can contribute significantly to your team.
+**Ben:** I’m particularly excited about the opportunity to work with real-time `data streaming` and Kafka. My background in developing scalable data streaming solutions `aligns well` with the job description, and I believe I can contribute significantly to your team.
 
-**Stanley:** That sounds great. Can you tell me more about your experience with Kafka and real-time data streaming?
+**Stanley:** That sounds great. Can you tell me more about your experience with Kafka and real-time `data streaming`?
 
-**Ben:** Absolutely. I’ve spent the last three years working at DCA Company, where I focused on building and optimizing real-time data pipelines using Kafka. One of my key achievements was designing a scalable data streaming platform that reduced `data processinglatency` by 40%.
+**Ben:** Absolutely. I’ve spent the last three years working at DCA Company, where I focused on building and optimizing real-time `data pipelines` using Kafka. One of my `key achievement`s was designing a scalable data streaming platform that reduced `data processing latency` by 40%.
 
 **Stanley:** Impressive! It sounds like you have some solid experience. How do you handle working under `tight deadlines`, especially when dealing with real-time data applications?
 
-**Ben:** I `thrive infast-paced environments`. At CDA, I often managed multiple projects with tight deadlines. My strategy involves prioritizing tasks, effective time management, and clear communication with my team. With real-time applications, ensuring high availability and `low latency` is crucial, and I’ve developed robust monitoring and alerting systems to maintain performance under pressure.
+**Ben:** I `thrive in` `fast-paced environments`. At CDA, I often managed multiple projects with tight deadlines. My strategy involves prioritizing tasks, effective time management, and clear communication with my team. With real-time applications, ensuring high availability and `low latency` is crucial, and I’ve developed robust monitoring and alerting systems to maintain performance under pressure.
 
 **Stanley:** That’s good to hear. Collaboration and communication are crucial for us. Do you have any questions about the role or our company?
 
@@ -262,7 +262,7 @@ This conversation illustrates the importance of networking and clear communicati
 
 |  |  |  |
 | --- | --- | --- |
-| came across | data streaming | aligns well |
+| come across | data streaming | aligns well |
 | data pipelines | data processing | low latency |
 | tight deadlines | thrive in | fast-paced environments |
 | dynamic team | troubleshooting issues | key achievements |
