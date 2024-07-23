@@ -3,6 +3,7 @@ title: "How to list all indexes of a specific table in a Rails application"
 datePublished: Tue Jun 04 2024 02:20:28 GMT+0000 (Coordinated Universal Time)
 cuid: clwzrvrn6000309li5g3pbsux
 slug: how-to-list-all-indexes-of-a-specific-table-in-a-rails-application
+canonical: https://dev.to/alexandrecalaca/how-to-list-all-indexes-of-a-specific-table-in-a-rails-application-heg
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/beuDQp9XOp0/upload/491267482848dc423c9b8618363dbdf5.jpeg
 tags: ruby, ruby-on-rails, alexandrecalaca
 
