@@ -3,6 +3,7 @@ title: "Creating a customized SSH key on Pop!_OS 22.04: step-by-step with screen
 datePublished: Wed Dec 06 2023 19:11:28 GMT+0000 (Coordinated Universal Time)
 cuid: clpu5aqoy000008laa6cf04n7
 slug: creating-a-customized-ssh-key-on-popos-2204-step-by-step-with-screenshots
+canonical: https://dev.to/alexandrecalaca/creating-a-customized-ssh-key-on-popos-2204-step-by-step-with-screenshots-1e6e
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/C1P4wHhQbjM/upload/e403f734d2cc7c2bd2b932e2226db8e5.jpeg
 tags: ubuntu, linux, popos, alexandrecalaca
 
